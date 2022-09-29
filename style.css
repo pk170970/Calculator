@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.2rem;
+    background-color: #82C8D1;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 25%;
+    flex-direction: column;
+    padding: 0;
+    border: none;
+    margin-top: 5em;
+    border-radius: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+
+}
+
+input, input:focus {
+    width: 100%;
+    height: 8vh;
+    font-size: 1.5rem;
+    background-color: #383838;
+    color: white;
+    padding-left: 2px;
+}
+
+
+.btn {
+    padding: 1em;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 1.2px solid grey;
+    font-weight: 600;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.bg-grey {
+    background-color: #E5E5E5;
+    border-top: none;
+}
+
+.combine {
+    border: 1.2px solid transparent;
+    background-color: orange;
+}
